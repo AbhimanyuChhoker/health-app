@@ -21,7 +21,7 @@ def get_user_dashboard():
 # Endpoint to get a random motivational quote
 @app.route('/api/quotes/random', methods=['GET'])
 def get_random_quote():
-    
+    return True
 
 
 @app.route('/api/greeting', methods=['GET'])
